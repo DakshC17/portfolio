@@ -55,7 +55,7 @@ export default function Education() {
                 whileHover={{ y: -5 }}
                 transition={{ type: "spring", stiffness: 400, damping: 17 }}
               >
-                <Card className="border shadow-sm hover:shadow-md transition-shadow h-full">
+                <Card className="border shadow-sm hover:shadow-md transition-shadow h-full min-h-[220px] flex flex-col justify-between">
                   <CardHeader className="flex flex-row items-center gap-4">
                     <motion.div
                       className="p-2 bg-primary/10 rounded-full"

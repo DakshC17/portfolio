@@ -79,7 +79,7 @@ export default function Hero() {
               </Link>
             </Button>
             <Button variant="outline" asChild className="group">
-              <Link href="/resume.pdf" target="_blank">
+              <Link href="https://drive.google.com/file/d/1zCK4vGvEIravvM-8rMqAZbY7ogrXP1Vc/view?usp=drive_link" target="_blank">
                 Download Resume
                 <motion.span
                   animate={{ y: [0, -3, 0] }}
@@ -93,21 +93,11 @@ export default function Hero() {
 
           <motion.div
             className="absolute bottom-0 left-1/2 transform -translate-x-1/2"
-            initial={{ opacity: 0, y: -20 }}
+            initial={{ opacity: 1, y: -20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 1, delay: 1 }}
           >
-            <motion.div
-              animate={{ y: [0, 10, 0] }}
-              transition={{ duration: 2, repeat: Number.POSITIVE_INFINITY, ease: "easeInOut" }}
-              className="w-6 h-10 border-2 border-muted-foreground rounded-full flex justify-center p-1 mt-16"
-            >
-              <motion.div
-                animate={{ y: [0, 10, 0] }}
-                transition={{ duration: 1.5, repeat: Number.POSITIVE_INFINITY, ease: "easeInOut", delay: 0.2 }}
-                className="w-1 h-2 bg-primary rounded-full"
-              />
-            </motion.div>
+            
           </motion.div>
         </div>
       </div>
