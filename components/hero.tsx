@@ -79,7 +79,7 @@ export default function Hero() {
               </Link>
             </Button>
             <Button variant="outline" asChild className="group">
-              <Link href="https://drive.google.com/file/d/1zCK4vGvEIravvM-8rMqAZbY7ogrXP1Vc/view?usp=drive_link" target="_blank">
+              <a href="/Daksh_Resume.pdf-3.pdf" download>
                 Download Resume
                 <motion.span
                   animate={{ y: [0, -3, 0] }}
@@ -87,7 +87,7 @@ export default function Hero() {
                 >
                   <Download className="ml-2 h-4 w-4" />
                 </motion.span>
-              </Link>
+              </a>
             </Button>
           </motion.div>
 
