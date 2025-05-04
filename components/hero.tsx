@@ -93,6 +93,8 @@ export default function Hero() {
               </Link>
             </Button>
 
+            {/* View Resume (External Link) */}
+
             {/* Download Resume */}
             <Button variant="outline" asChild className="group">
               <a href="/Daksh_Resume.pdf-3.pdf" download>
