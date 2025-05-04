@@ -20,3 +20,12 @@ export default function ResumePage() {
     </div>
   )
 }
+
+//             className="flex flex-col items-center space-y-4 mt-6"
+//             initial={{ opacity: 0, y: 20 }}      
+//             animate={{ opacity: 1, y: 0 }}
+//             transition={{ duration: 0.7, delay: 0.5 }}
+
+//           >
+//             <Link href="/Daksh_Choudhary_Resume.pdf" download className="w-full md:w-auto">
+//               <Button variant="outline" className="w-full md:w-auto">    
