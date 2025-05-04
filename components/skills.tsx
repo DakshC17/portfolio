@@ -62,7 +62,7 @@ export default function Skills() {
               }}
               transition={{ type: "spring", stiffness: 400, damping: 17 }}
             >
-              <Card className="border shadow-sm h-full">
+              <Card className="border shadow-sm h-full min-h-[177px] w-full">
                 <CardHeader className="pb-2">
                   <CardTitle className="text-xl flex items-center">
                     <motion.div

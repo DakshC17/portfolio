@@ -1,7 +1,7 @@
 "use client"
-/*made the changes here */
+
 import { Button } from "@/components/ui/button"
-import { Download, ArrowRight } from "lucide-react"
+import { Download, ArrowRight, Eye } from "lucide-react"
 import Link from "next/link"
 import { motion } from "framer-motion"
 import { TypeAnimation } from "react-type-animation"
@@ -58,11 +58,12 @@ export default function Hero() {
           </motion.p>
 
           <motion.div
-            className="flex flex-col sm:flex-row gap-4 mt-8"
+            className="flex flex-col sm:flex-row flex-wrap gap-4 mt-8 justify-center"
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.7, delay: 0.5 }}
           >
+            {/* Get in Touch */}
             <Button asChild className="group relative overflow-hidden">
               <Link href="#contact">
                 <span className="relative z-10 flex items-center">
@@ -78,6 +79,21 @@ export default function Hero() {
                 <span className="absolute inset-0 bg-primary/80 translate-y-[101%] group-hover:translate-y-0 transition-transform duration-300" />
               </Link>
             </Button>
+
+            {/* View Resume (Internal Route) */}
+            <Button variant="secondary" asChild className="group">
+              <Link href="/Daksh_Resume.pdf-3.pdf">
+                View Resume
+                <motion.span
+                  animate={{ scale: [1, 1.2, 1] }}
+                  transition={{ duration: 1.5, repeat: Number.POSITIVE_INFINITY, repeatDelay: 2 }}
+                >
+                  <Eye className="ml-2 h-4 w-4" />
+                </motion.span>
+              </Link>
+            </Button>
+
+            {/* Download Resume */}
             <Button variant="outline" asChild className="group">
               <a href="/Daksh_Resume.pdf-3.pdf" download>
                 Download Resume
@@ -89,15 +105,6 @@ export default function Hero() {
                 </motion.span>
               </a>
             </Button>
-          </motion.div>
-
-          <motion.div
-            className="absolute bottom-0 left-1/2 transform -translate-x-1/2"
-            initial={{ opacity: 1, y: -20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 1, delay: 1 }}
-          >
-            
           </motion.div>
         </div>
       </div>
