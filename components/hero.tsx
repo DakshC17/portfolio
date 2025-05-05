@@ -82,8 +82,9 @@ export default function Hero() {
 
             {/* View Resume (Internal Route) */}
             <Button variant="secondary" asChild className="group">
-              <Link href="/Daksh_Resume.pdf-3.pdf">
-                View Resume
+              <Link href="/resume">
+              <span className="group-hover:translate-x-1 transition-transform duration-200">View Resume</span>
+                
                 <motion.span
                   animate={{ scale: [1, 1.2, 1] }}
                   transition={{ duration: 1.5, repeat: Number.POSITIVE_INFINITY, repeatDelay: 2 }}
@@ -96,7 +97,7 @@ export default function Hero() {
             {/* View Resume (External Link) */}
 
             {/* Download Resume */}
-            <Button variant="outline" asChild className="group">
+            {/* <Button variant="outline" asChild className="group">
               <a href="/Daksh_Resume.pdf-3.pdf" download>
                 Download Resume
                 <motion.span
@@ -106,7 +107,7 @@ export default function Hero() {
                   <Download className="ml-2 h-4 w-4" />
                 </motion.span>
               </a>
-            </Button>
+            </Button> */}
           </motion.div>
         </div>
       </div>
