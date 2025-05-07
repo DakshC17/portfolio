@@ -114,3 +114,9 @@ export default function Hero() {
     </section>
   )
 }
+
+
+// import { Button } from "@/components/ui/button"
+// import { Download, ArrowRight, Eye } from "lucide-react"
+// import Link from "next/link"
+// import { motion } from "framer-motion"   
