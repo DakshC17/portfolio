@@ -135,3 +135,10 @@ export default function About() {
     </section>
   )
 }
+
+
+
+// import { Button } from "@/components/ui/button"
+// import { Card, CardContent } from "@/components/ui/card"
+// import { Download } from "lucide-react"
+// import Image from "next/image"
