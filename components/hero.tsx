@@ -82,7 +82,7 @@ export default function Hero() {
 
             {/* View Resume (Internal Route) */}
             <Button variant="secondary" asChild className="group">
-              <Link href="/resume">
+              <Link href="/Daksh_Resume.pdf-3.pdf">
               <span className="group-hover:translate-x-1 transition-transform duration-200">View Resume</span>
                 
                 <motion.span

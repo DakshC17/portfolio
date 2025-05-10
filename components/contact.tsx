@@ -156,7 +156,7 @@ export default function Contact() {
                   <div>
                     <p className="font-medium">GitHub</p>
                     <Link
-                      href="https://github.com/"
+                      href="https://github.com/DakshC17"
                       target="_blank"
                       className="text-muted-foreground hover:text-primary transition-colors"
                     >
