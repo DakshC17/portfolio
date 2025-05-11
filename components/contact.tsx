@@ -131,7 +131,7 @@ export default function Contact() {
                   <div>
                     <p className="font-medium">LinkedIn</p>
                     <Link
-                      href="https://www.linkedin.com/in/"
+                      href="https://www.linkedin.com/in/daksh-choudhary-18336b249/"
                       target="_blank"
                       className="text-muted-foreground hover:text-primary transition-colors"
                     >

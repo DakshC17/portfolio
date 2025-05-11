@@ -128,3 +128,8 @@ export default function Experience() {
     </section>
   )
 }
+
+
+// <div className="flex flex-col md:flex-row items-center gap-4">
+//   <div className="w-1/2 flex justify-center items-start">
+//     <motion.div  

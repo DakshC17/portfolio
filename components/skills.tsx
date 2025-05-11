@@ -96,3 +96,10 @@ export default function Skills() {
     </section>
   )
 }
+
+
+//                               >
+//                                 {resp}
+//                               </motion.li>
+//                             ))}
+//                           )} 
