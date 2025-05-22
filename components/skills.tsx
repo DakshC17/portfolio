@@ -98,8 +98,26 @@ export default function Skills() {
 }
 
 
-//                               >
-//                                 {resp}
-//                               </motion.li>
-//                             ))}
-//                           )} 
+// Note: The above code assumes that you have the necessary components (Card, Badge, etc.) and styles defined in your project.
+// The `ScrollAnimation` and `StaggerAnimation` components are used to create scroll and stagger animations respectively. 
+// You may need to adjust the animation properties and styles according to your design preferences.
+// The `motion` component from Framer Motion is used to create animations on hover and other interactions.
+// The `whileHover` and `animate` properties are used to define the animation behavior on hover and during the initial render.
+// The `transition` property is used to define the animation timing and easing.
+// The `key` prop is used to uniquely identify each skill category and skill for React's reconciliation process.
+// The `className` prop is used to apply styles to the components. You may need to adjust the class names according to your CSS framework or custom styles.
+// The `bg-primary` and `bg-muted/50` classes are used to apply background colors. You may need to adjust these according to your design system.
+// The `text-muted-foreground` class is used to apply a muted text color. You may need to adjust this according to your design system.
+// The `container`, `px-4`, `md:px-6`, `py-16`, and `md:py-24` classes are used to apply padding and margin. You may need to adjust these according to your design system.
+// The `flex`, `grid`, `items-center`, `text-center`, `mb-12`, `gap-6`, and other utility classes are used to create a responsive layout.
+// You may need to adjust these according to your design system.
+// The `whileHover` and `animate` properties are used to define the animation behavior on hover and during the initial render.
+// The `transition` property is used to define the animation timing and easing.
+// The `key` prop is used to uniquely identify each skill category and skill for React's reconciliation process.
+// The `className` prop is used to apply styles to the components. You may need to adjust the class names according to your CSS framework or custom styles.
+
+// The `bg-primary` and `bg-muted/50` classes are used to apply background colors. You may need to adjust these according to your design system.
+// The `text-muted-foreground` class is used to apply a muted text color. You may need to adjust this according to your design system.
+// The `container`, `px-4`, `md:px-6`, `py-16`, and `md:py-24` classes are used to apply padding and margin. You may need to adjust these according to your design system.
+// The `flex`, `grid`, `items-center`, `text-center`, `mb-12`, `gap-6`, and other utility classes are used to create a responsive layout.
+// You may need to adjust these according to your design system.
